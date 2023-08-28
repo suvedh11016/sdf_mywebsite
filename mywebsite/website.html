@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Department of Computer Science and Engineering - IIT Hyderabad</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <img src="logo.png" alt="IIT Hyderabad Logo" class="logo">
+      <h2 class="header-subtitle">IIT HYDERABAD</h2>
+    </div>
+    <div class="header-titles">
+      <h1 class="header-title"><b>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</b></h1>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="javascript:location.reload();">Home</a></li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('people-submenu')">People</a>
+        <ul id="people-submenu">
+          <li><a href="students.php">Students</a></li>
+          <li><a href="faculty.php">Faculty</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('academics-submenu')">Academics</a>
+        <ul id="academics-submenu">
+          <li><a href="timetable.php">Timetable</a></li>
+          <li><a href="curriculum.php">Curriculum</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Welcome to the Department of Computer Science and Engineering at IIT Hyderabad</h2>
+    <p>We are committed to excellence in education, research, and innovation in the field of Computer Science.</p>
+    <img src="dep.jpg" alt="CSE Department Photo">
+  </main>
+  <footer>
+    <p>&copy; 2023 Department of Computer Science and Engineering, IIT Hyderabad. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
